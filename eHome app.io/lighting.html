@@ -1,0 +1,46 @@
+<html>
+	<header>
+		<title>Lighting</title>
+		<link rel="stylesheet" type="text/css" href="styling.css"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</header>
+	<body>
+		<div id="screen">
+			<div class="head-bar">
+          		<a class="back-arrow" href="home.html"><i class="material-icons">arrow_back</i></a>
+          		<img class="icon" src="images/lighting-icon.png">
+          		<div class="detail-head-text">Lighting</div>
+			</div>
+			
+		
+			<img class="graphs" src="images/graph1.png">
+			<img class="graphs" src="images/graph2.png">
+			
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div id="dot-holder">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+			</div>
+		
+
+			<div class="tips-header">Energy Saving Tips</div>
+			
+			<form class="tips-list">
+				<input class="tip-inputs" type="checkbox" name="lighting1"><label class="tip-labels">
+					LED lightbulbs use 25% as much energy as traditional incandescent bulbs. Switch to LEDs!
+				</label>
+				<input class="tip-inputs" type="checkbox" name="lighting2"><label class="tip-labels">
+					During the daytime, try turning off the lights and using natural lighting.
+				</label>
+				<input class="tip-inputs" type="checkbox" name="lighting3"><label class="tip-labels">
+					Use lamps or other smaller lights if you don't need to light up the whole room.
+				</label>
+			</form>
+
+			<a class="tips-button" href="lighting_sharing.html" onclick="sendTips()">Share Tips</a>
+		<script src="lighting.js"></script>
+	</body>
+</html>

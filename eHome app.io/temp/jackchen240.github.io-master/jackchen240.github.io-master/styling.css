@@ -1,0 +1,414 @@
+
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: #BBDEFB;
+}
+
+.head-bar {
+	height: 45px;
+  	width: 300px;
+  	background: #9E9E9E;
+  	color: #FFF;
+  	margin-top: 0px;
+  	line-height: 45px;
+}
+
+#login-head {
+	width: 100%;
+	height: 150px;
+	font-size: 2em;
+	line-height: 200px;
+}
+
+#chart_div{
+	margin-top: -40px;
+	
+}
+
+.pdfpdf{
+	width:300px;
+	height: 500px;
+}
+
+
+#ehome {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 70px;
+}
+
+.head-text {
+	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#login-info {
+	width: 100%;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 1px solid black; */
+}
+
+.input {
+	width: 250px;
+	height: 33px;
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+	overflow: auto;
+	font-size: 1.2em;
+}
+
+.input-email {
+	width: 252px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 24px;
+}
+
+.text-tips {
+	width: 252px;
+	height: 180px;
+	margin-top: 30px;
+	margin-left: 24px;
+	resize: none;
+}
+
+.login-button {
+	width: 250px;
+	height: 50px;
+	color: #000;
+	text-decoration: none;
+	border-radius: 10px;
+	background: #d2d2d2;
+	margin-top: 50px;
+	margin-left: 25px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 50px;
+	float: left;
+}
+
+#forgot {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 1.1em;
+	float: left;
+}
+
+.login-button:hover {
+	background: #A0A0A0;
+}
+
+.login-button:active {
+	background: #909090;
+}
+
+.welcome {
+	width: 100%;
+	height: 60px;
+	font-weight: bold;
+	font-size: 1.8em;
+	line-height: 60px;
+	text-align: center;
+}
+
+.cover{
+	height: auto;
+	width: 100%;
+	margin: auto;
+}
+
+.bill-info {
+	height: 187px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#bill-details {
+	position: relative;
+	top: -30px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#pie-title {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-top: 0px;
+}
+
+#piechart {
+	width: 430px;
+	height: 300px;
+	display: block;
+	position: relative;
+	margin-left: -60px;
+	margin-top: -40px;
+	top: 5px;
+}
+
+.back-arrow {
+	height: auto;
+	position: relative;
+	float: left;
+	margin-top: 9.5px;
+	margin-left: 10.5px;
+	margin-right: 0px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+
+.detail-head-text {
+	display: block;
+    font-size: 2em;
+    float: right;
+    width: 40%;
+    margin-right: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icon {
+	height: 30px;
+	margin-top: 7.5px;
+	margin-left: 20px;
+	margin-right: 0px;
+	filter: invert(100%);
+}
+
+#graph-holder {
+	width: 100%;
+}
+
+.graphs {
+	width: 80%;
+	height: 200px;
+	display: none;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: #FFF;
+}
+
+.prev {
+	cursor: pointer;
+	position: relative;
+	top: -144px;
+	width: auto;
+	margin-top: 0px;
+	padding: 12px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+}
+
+.next {
+	cursor: pointer;
+	position: relative;
+	top: -144px;
+	width: auto;
+	margin-top: 0px;
+	padding: 12px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+
+.prev:hover, .next:hover {
+	background-color: #F0F0F0;
+}
+
+#dot-holder {
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin-top: -48px;
+	background-color: #FFF;
+}
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #BBB;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.tips-header {
+	float: left;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-top: -20px;
+	font-weight: bold;
+	font-size: 1.17em;
+	line-height: 40px;
+	border-top: 2px solid;
+}
+
+.tips-list {
+	float: left;
+	width: 100%;
+	height: 150px;
+	margin-top: 0px;
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	font-size: 1.2em;
+	overflow: auto;
+}
+
+.tip-inputs {
+	width: 23px;
+	height: 18px;
+	float: left;
+}
+
+.tip-labels {
+	margin-left: 30px;
+	display: block;
+}
+
+.tips-share {
+	width: 100px;
+	
+	float: left;
+}
+.tips-button {
+	width: 200px;
+	height: 50px;
+	color: #000;
+	border-radius: 10px;
+	background: #d2d2d2;
+	margin-top: -12px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 50px;
+	text-decoration: none;
+	float: left;
+}
+
+.tips-button:hover {
+	background: #8E8E8E;
+	cursor: pointer;
+}
+
+.tips-button:active {
+	background: #7E7E7E;
+}
+
+#share-text{
+	display: block;
+	font-size: 1.3em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+.share-button{
+	width: 252px;
+	height: 40px;
+	color: #000;
+	text-decoration: none;
+	border-radius: 10px;
+	background: #d2d2d2;
+	margin-top: 30px;
+	margin-left: 24px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 40px;
+	float: left;
+}
+.share-button:hover {
+	background: #8d8d8d;
+}
+
+.share-button:active {
+	background: #909090;
+}
+
+#shared-popup {
+	width: 70%;
+	height: 30%;
+	background-color: #C0C0C0;
+	position: relative;
+	top: -42%;
+	left: 15%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.shared-home {
+	font-size: 1.2em;
+}
+
+#bill-history {
+	float: left;
+	width: 100%;
+	height: 268px;
+	overflow: auto;
+}
+
+.bill-month {
+	float: left;
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+	background-color: #d2d2d2;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000;
+	border-radius: 10px;
+}
+
+.bill-date {
+	float: left;
+	width: 50%;
+	margin-left: 10px;
+}
+
+.bill-arrow {
+	float: right;
+	line-height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.bill-cost {
+	float: right;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+
